@@ -16,3 +16,10 @@ for num in range(8):
     print(num)
 
 # using else in for loop
+
+for x in range(1, 100):
+    if (x == 20):
+        break
+    print(x)
+else:
+    print("I love for loop")
