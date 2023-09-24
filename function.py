@@ -27,3 +27,15 @@ def Greatest(num1, num2, num3):
 
 
 Greatest(num1, num2, num3)
+
+# the return statement in a python
+
+
+def Multipy_Numbers(num4, num6, num7):
+    num4 = int(input("Enter the first number: "))
+    num6 = int(input("Enter the second number: "))
+    num7 = int(input("Enter the third number: "))
+    return num4 * num6 * num7
+
+
+print(Multipy_Numbers(num4, num6, num7))
