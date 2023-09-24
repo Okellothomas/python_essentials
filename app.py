@@ -46,3 +46,8 @@ maximum = max(7, 99)
 minimum = min(7, 99)
 print(maximum)
 print(minimum)
+
+mynum = 89.9283
+print(round(mynum))
+# bin returns the binary code of the number provided to it.
+print(bin(maximum))
