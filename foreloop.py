@@ -23,3 +23,12 @@ for x in range(1, 100):
     print(x)
 else:
     print("I love for loop")
+
+
+# using function with for loop
+def myFor_Loop():
+    for p in range(4):
+        print(p)
+
+
+print(myFor_Loop())
