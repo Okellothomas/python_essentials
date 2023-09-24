@@ -23,3 +23,26 @@ myfile = open('names.txt', 'r+')
 print(myfile.readline())
 print("***************************************")
 myfile.close()
+
+# We read te file lines:
+myfile = open('names.txt', 'rt')
+
+print(myfile.readlines())
+
+print("****************************************")
+
+myfile.close()
+
+
+# loop and function on the file
+
+def Loop_File(name):
+    myfile = open('names.txt', 'rt')
+    for name in myfile:
+        print(name)
+    myfile.close()
+
+
+print(Loop_File(myfile))
+
+# For loop for the
