@@ -18,3 +18,31 @@ print(scores.upper())
 print(scores.isupper())
 print(scores.lower())
 print(scores.__len__())
+print(len(scores))
+
+# Chaining in python
+print(scores.upper().islower())
+print(scores.lower().islower())
+
+# Finding the index of a given number
+print(scores.index(" "))
+
+# The replace one
+print(scores.replace("m", "k"))
+
+# Numbers in python
+number = 6
+print(number)
+sum = number + number
+print(sum)
+num = str(89)
+add = num + num
+print(add)
+
+absolute = 78 % 9
+print(absolute)
+
+maximum = max(7, 99)
+minimum = min(7, 99)
+print(maximum)
+print(minimum)
