@@ -1,3 +1,4 @@
+from math import *  # importing all function from the math library
 # Printing the first hello world in my data
 print("Hello World")
 # Second hello world data
@@ -51,3 +52,7 @@ mynum = 89.9283
 print(round(mynum))
 # bin returns the binary code of the number provided to it.
 print(bin(maximum))
+
+# using the imported functions
+squaroot = 81
+print(sqrt(squaroot))
