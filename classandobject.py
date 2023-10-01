@@ -38,8 +38,17 @@ print("its color is: ", A1.color)
 # delete an object of class Animal
 
 del A1.name
+print(A1.color)
 print(A1.name, A1.color)
 # deleting the entire object
 
 del A1
 print(A1.name, A1.color)
+
+
+# The pass keyword to help bypass any error in the class:
+
+class School:
+    def __init__(self) -> None:
+        # The pass allows us to bypass any error
+        pass
