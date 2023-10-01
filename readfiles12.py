@@ -21,7 +21,7 @@ myfile.close()
 myfile = open('names.txt', 'r+')
 
 print(myfile.readline())
-print("***************************************")
+print("*****************************************")
 myfile.close()
 
 # We read te file lines:
@@ -29,7 +29,7 @@ myfile = open('names.txt', 'rt')
 
 print(myfile.readlines())
 
-print("****************************************")
+print("*****************************************")
 
 myfile.close()
 
